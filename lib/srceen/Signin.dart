@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class LOADINGSCREEN extends StatelessWidget {
-  const LOADINGSCREEN({super.key});
+class SIGNINSCREEN extends StatelessWidget {
+  const SIGNINSCREEN({super.key});
 
   @override
   Widget build(BuildContext context) {

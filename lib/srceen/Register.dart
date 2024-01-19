@@ -1,4 +1,4 @@
-import 'package:calculate/srceen/loading.dart';
+import 'package:calculate/srceen/Signin.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -51,7 +51,7 @@ class _REGISTERSCREENState extends State<REGISTERSCREEN> {
 
     Navigator.pushReplacement(
       context,
-      MaterialPageRoute(builder: (context) => LOADINGSCREEN()),
+      MaterialPageRoute(builder: (context) => SIGNINSCREEN()),
     );
   } catch (e) {
     print('การลงทะเบียนล้มเหลว: $e');
