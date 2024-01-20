@@ -9,7 +9,6 @@ void main() async {
     name: 'Calculate',
     options: DefaultFirebaseOptions.currentPlatform);
   WidgetsFlutterBinding.ensureInitialized();
-  //await Firebase.initializeApp();
   runApp(MyApp());
 }
 

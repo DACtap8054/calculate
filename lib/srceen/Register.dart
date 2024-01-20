@@ -51,7 +51,7 @@ class _REGISTERSCREENState extends State<REGISTERSCREEN> {
 
     Navigator.pushReplacement(
       context,
-      MaterialPageRoute(builder: (context) => SIGNINSCREEN()),
+      MaterialPageRoute(builder: (context) => SignInScreen()),
     );
   } catch (e) {
     print('การลงทะเบียนล้มเหลว: $e');
